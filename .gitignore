@@ -1,25 +1,50 @@
-# CakePHP 3
+# PHP
+*.php~
+*.phtml
+.DS_Store
 
-/vendor/*
-/config/app.php
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.buildpath
+.settings/
+*.sublime-project
+*.sublime-workspace
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Environment
+.env
+.env.local
+.env.*.local
 
-/logs/*
-!/logs/empty
+# Logs
+*.log
+logs/
 
-# CakePHP 2
+# Cache
+cache/
+tmp/
+temp/
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Database
+*.sqlite
+*.db
+
+# Dependencies
+vendor/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+.phpunit.result.cache
+clover.xml
+
+# Build
+dist/
+build/
